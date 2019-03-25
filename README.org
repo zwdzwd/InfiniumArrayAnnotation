@@ -3,25 +3,25 @@
 *** Stubbs 2017 Genome Biology (Oliver Stegle, Wolf Reik lab)
 https://www.ncbi.nlm.nih.gov/pubmed/28399939
 
-329 CpGs with error of 3.33 weeks. Tissues include liver, muscle, spleen and cerebellum samples.
+The clock was built from *329* CpGs with error of 3.33 weeks. Tissues include liver, muscle, spleen and cerebellum samples.
 
 *** Petkovich 2017 Cell Metabolism (Vadim Gladyshev lab)
 https://www.ncbi.nlm.nih.gov/pubmed/28380383
 
-The clock was built from **90** CpGs using partial blood data set.
+The clock was built from *90* CpGs using partial blood data set.
 
 *** Wang 2017 Genome Biology (Trey Ideker lab)
 https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1186-2
 
-This paper focused on liver methylomes and found aging is slowed by Prop1^{df/df} dwarfism, rapamycin treatment and calori restriction. The clock was built from **148** CpGs using 107 liver methylomes of mice from 0.2 to 26.0 months old. 28 additional mice from conditions are also analyzed. Data were obtained from [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4421981/][Reizel 2015 Genes Dev]] (mouse RRBS) and [[https://www.sciencedirect.com/science/article/pii/S1550413113002933?via%253Dihub][Ahrens 2013 Cell Metabolism]] (human).
+This paper focused on liver methylomes and found aging is slowed by Prop1^{df/df} dwarfism, rapamycin treatment and calori restriction. The clock was built from *148* CpGs using 107 liver methylomes of mice from 0.2 to 26.0 months old. 28 additional mice from conditions are also analyzed. Data were obtained from [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4421981/][Reizel 2015 Genes Dev]] (mouse RRBS) and [[https://www.sciencedirect.com/science/article/pii/S1550413113002933?via%253Dihub][Ahrens 2013 Cell Metabolism]] (human).
 
 *** Meer 2018 Elife (Vadim Gladyshev lab)
 https://www.ncbi.nlm.nih.gov/pubmed/30427307
 
-435 CpGs built.
+The clock was built from *435* CpGs built.
 
 *** Thompson 2018 Aging (Gary Churchill, Steve Horvath and Matteo Pellegrini lab)
 https://www.ncbi.nlm.nih.gov/pubmed/30348905
 
-Four clocks were built. Two used 193,651 CpGs and two used 952 CpGs
+Four clocks were built. Two used *193,651* CpGs and two conservative clocks used *952* CpGs
    
