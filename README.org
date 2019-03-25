@@ -1,9 +1,9 @@
 * Epigenetic Clocks
 ** Mouse
-
-|--------------------------------+-------------+---------------|
-| Reference                      |      # CpGs | Partial Blood |
-| [[https://www.ncbi.nlm.nih.gov/pubmed/30427307][Meer 2018 Elife]]                |         435 |               |
-| [[https://www.ncbi.nlm.nih.gov/pubmed/30348905][Thompson 2017 Aging]]            | 193,651/952 |               |
-| [[https://www.ncbi.nlm.nih.gov/pubmed/28380383][Petkovich 2017 Cell Metabolism]] |          90 |               |
+*** [[https://www.ncbi.nlm.nih.gov/pubmed/30427307][Meer 2018 Elife]] 
+435
+*** [[https://www.ncbi.nlm.nih.gov/pubmed/30348905][Thompson 2018 Aging]]
+193,651/952 CpGs
+*** [[https://www.ncbi.nlm.nih.gov/pubmed/28380383][Petkovich 2017 Cell Metabolism]]
+90 CpGs built from partial blood
    
