@@ -23,5 +23,5 @@ The clock was built from *435* CpGs built.
 *** Thompson 2018 Aging (Gary Churchill, Steve Horvath and Matteo Pellegrini lab)
 https://www.ncbi.nlm.nih.gov/pubmed/30348905
 
-Four clocks were built. Two used *193,651* CpGs and two conservative clocks used *952* CpGs using RRBS from adipose, blood, liver, and kidney, muscle, and lung tissue samples.
+Four clocks were built. Two used *193,651* CpGs and two conservative clocks (including an [[https://github.com/zwdzwd/InfiniumArrayAnnotation/blob/master/epigenetic_clocks/Thompson582ElasticNet_mm10_intercept_30.3172.bed][all CpG elastic net model]] and [[https://github.com/zwdzwd/InfiniumArrayAnnotation/blob/master/epigenetic_clocks/Thompson273ElasticNetConserved_mm10_intercept_13.6378.bed][conserved CpG model]]) used *952* CpGs using RRBS from adipose, blood, liver, and kidney, muscle, and lung tissue samples.
    
