@@ -1,8 +1,7 @@
 * Epigenetic Clocks
 ** Mouse
-1. Meer 2018 =435 CpGs=
 
-A whole lifespan mouse multi-tissue DNA methylation clock.
+1. Meer 2018 =435 CpGs= A whole lifespan mouse multi-tissue DNA methylation clock.
 Meer MV, Podolskiy DI, Tyshkovskiy A, Gladyshev VN.
 Elife. 2018 Nov 14;7. pii: e40675. doi: 10.7554/eLife.40675.
 
