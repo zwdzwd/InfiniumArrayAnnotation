@@ -7,7 +7,7 @@ https://www.ncbi.nlm.nih.gov/pubmed/28399939
 90 CpGs built from partial blood.
 *** Wang 2017 Genome Biology (Trey Ideker lab)
 https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1186-2
-This paper focused on liver methylomes and found aging is slowed by $Prop1^{df/df}$ The clock was built from liver methylomes of mice from 0.2 to 26.0 months old.
+This paper focused on liver methylomes and found aging is slowed by Prop1^{df/df} The clock was built from liver methylomes of mice from 0.2 to 26.0 months old.
 *** [[https://www.ncbi.nlm.nih.gov/pubmed/30427307][Meer 2018 Elife]] 
 435 CpGs built.
 *** [[https://www.ncbi.nlm.nih.gov/pubmed/30348905][Thompson 2018 Aging]]
