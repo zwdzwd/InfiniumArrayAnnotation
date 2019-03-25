@@ -1,0 +1,8 @@
+* Epigenetic Clocks
+** Mouse
+*** Meer et al. 2018 eLife =435 CpGs=
+A Whole Lifespan mouse multi-tissue DNA methylation clock
+*** Thompson et al. 2018 Aging =193,651 CpGs=
+A multi‐tissue full lifespan epigenetic clock for mice
+*** Petkovich et al. 2017 Cell Metabolism
+*** 
