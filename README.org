@@ -12,7 +12,7 @@ The clock was built from *329* CpGs with error of 3.33 weeks. Tissues include li
 *** Petkovich 2017 Cell Metabolism (Vadim Gladyshev lab)
 https://www.ncbi.nlm.nih.gov/pubmed/28380383
 
-The clock was built from [[https://github.com/zwdzwd/InfiniumArrayAnnotation/blob/master/epigenetic_clocks/Petkovich90_mm10_power_law.bed][90 CpGs]] using partial blood data set.
+The clock was built from [[https://github.com/zwdzwd/InfiniumArrayAnnotation/blob/master/epigenetic_clocks/Petkovich90_mm10_power_law.bed][90 CpGs]] using partial blood data set. The age is given by a power law of the =methylation score (Msc)=.
 #+BEGIN_SRC
 Msc = w_1 * M_1 + w_2 * M_2 + ...
 age = ((Msc - c)/a)^{1/b}
@@ -20,6 +20,7 @@ a = 0.1666
 b = 0.4185
 c = -1.712
 #+END_SRC
+where w_1, w_2, ... are the weights and M_1, M_2, ... are the methylation levels.
 
 *** Wang 2017 Genome Biology (Trey Ideker lab)
 https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1186-2
