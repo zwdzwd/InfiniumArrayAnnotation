@@ -12,12 +12,19 @@ The clock was built from *329* CpGs with error of 3.33 weeks. Tissues include li
 *** Petkovich 2017 Cell Metabolism (Vadim Gladyshev lab)
 https://www.ncbi.nlm.nih.gov/pubmed/28380383
 
-The clock was built from *90* CpGs using partial blood data set.
+The clock was built from [[https://github.com/zwdzwd/InfiniumArrayAnnotation/blob/master/epigenetic_clocks/Petkovich90_mm10_power_law.bed][90 CpGs]] using partial blood data set.
+#+BEGIN_SRC
+Msc = w_1 * M_1 + w_2 * M_2 + ...
+age = ((Msc - c)/a)^{1/b}
+a = 0.1666
+b = 0.4185
+c = -1.712
+#+END_SRC
 
 *** Wang 2017 Genome Biology (Trey Ideker lab)
 https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1186-2
 
-This paper focused on liver methylomes and found aging is slowed by Prop1^{df/df} dwarfism, rapamycin treatment and calori restriction. The clock was built from [[https://github.com/zwdzwd/InfiniumArrayAnnotation/blob/master/epigenetic_clocks/Wang148_mm10_intercept_5.827926399.bed][*148* CpGs]] using 107 liver methylomes of mice from 0.2 to 26.0 months old. 28 additional mice from conditions are also analyzed. Data were obtained from [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4421981/][Reizel 2015 Genes Dev]] (mouse RRBS) and [[https://www.sciencedirect.com/science/article/pii/S1550413113002933?via%253Dihub][Ahrens 2013 Cell Metabolism]] (human).
+This paper focused on liver methylomes and found aging is slowed by Prop1^{df/df} dwarfism, rapamycin treatment and calori restriction. The clock was built from [[https://github.com/zwdzwd/InfiniumArrayAnnotation/blob/master/epigenetic_clocks/Wang148_mm10_intercept_5.827926399.bed][148 CpGs]] using 107 liver methylomes of mice from 0.2 to 26.0 months old. 28 additional mice from conditions are also analyzed. Data were obtained from [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4421981/][Reizel 2015 Genes Dev]] (mouse RRBS) and [[https://www.sciencedirect.com/science/article/pii/S1550413113002933?via%253Dihub][Ahrens 2013 Cell Metabolism]] (human).
 
 *** Meer 2018 Elife (Vadim Gladyshev lab)
 https://www.ncbi.nlm.nih.gov/pubmed/30427307
