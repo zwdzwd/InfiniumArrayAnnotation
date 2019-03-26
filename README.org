@@ -7,15 +7,20 @@
 *** Stubbs 2017 Genome Biology (Oliver Stegle, Wolf Reik lab)
 https://www.ncbi.nlm.nih.gov/pubmed/28399939
 
-The clock was built from *329* CpGs with error of 3.33 weeks. Tissues include liver, muscle, spleen and cerebellum samples.
+The clock was built from [[https://github.com/zwdzwd/InfiniumArrayAnnotation/blob/master/epigenetic_clocks/Stubbs329_mm10_quadratic.bed][329 CpGs]] with error of 3.33 weeks. Tissues include liver, muscle, spleen and cerebellum samples.
+
+#+BEGIN_SRC 
+MSc = w_1 * M_1 + w_2 * M_2 + ...
+Log(age) = 0.1207 * MSc^2 + 1.2424 * MSc + 2.5440
+#+END_SRC
 
 *** Petkovich 2017 Cell Metabolism (Vadim Gladyshev lab)
 https://www.ncbi.nlm.nih.gov/pubmed/28380383
 
 The clock was built from [[https://github.com/zwdzwd/InfiniumArrayAnnotation/blob/master/epigenetic_clocks/Petkovich90_mm10_power_law.bed][90 CpGs]] using partial blood data set. The age is given by a power law of the =methylation score (Msc)=.
 #+BEGIN_SRC
-Msc = w_1 * M_1 + w_2 * M_2 + ...
-age = ((Msc - c)/a)^{1/b}
+MSc = w_1 * M_1 + w_2 * M_2 + ...
+age = ((MSc - c)/a)^{1/b}
 a = 0.1666
 b = 0.4185
 c = -1.712
@@ -35,5 +40,5 @@ The clock was built from *435* CpGs built.
 *** Thompson 2018 Aging (Gary Churchill, Steve Horvath and Matteo Pellegrini lab)
 https://www.ncbi.nlm.nih.gov/pubmed/30348905
 
-Four clocks were built. Two used *193,651* CpGs and two conservative clocks (including an [[https://github.com/zwdzwd/InfiniumArrayAnnotation/blob/master/epigenetic_clocks/Thompson582ElasticNet_mm10_intercept_30.3172.bed][all CpG elastic net model]] and [[https://github.com/zwdzwd/InfiniumArrayAnnotation/blob/master/epigenetic_clocks/Thompson273ElasticNetConserved_mm10_intercept_13.6378.bed][conserved CpG model]]) used *952* CpGs using RRBS from adipose, blood, liver, and kidney, muscle, and lung tissue samples.
+Four clocks were built. Two used *193,651* CpGs and two conservative clocks (including an [[https://github.com/zwdzwd/InfiniumArrayAnnotation/blob/master/epigenetic_clocks/Thompson582ElasticNet_mm10_intercept_30.3172.bed][582 CpG]] elastic net model and a [[https://github.com/zwdzwd/InfiniumArrayAnnotation/blob/master/epigenetic_clocks/Thompson273ElasticNetConserved_mm10_intercept_13.6378.bed][273 CpG]] conserved model) used *952* CpGs using RRBS from adipose, blood, liver, and kidney, muscle, and lung tissue samples.
    
