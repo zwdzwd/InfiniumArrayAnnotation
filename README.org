@@ -7,7 +7,7 @@
 *** Stubbs 2017 Genome Biology (Oliver Stegle, Wolf Reik lab)
 https://www.ncbi.nlm.nih.gov/pubmed/28399939
 
-The clock was built from [[https://github.com/zwdzwd/InfiniumArrayAnnotation/blob/master/epigenetic_clocks/Stubbs329_mm10_quadratic.bed][329 CpGs]] with error of 3.33 weeks. Tissues include liver, muscle, spleen and cerebellum samples.
+The clock was built from [[https://github.com/zwdzwd/InfiniumArrayAnnotation/blob/master/epigenetic_clocks/Stubbs329_mm10_quadratic.bed][329 CpGs]] with error of 3.33 weeks. Tissues include liver, muscle, spleen and cerebellum samples. This is considered a *young age clock* because they are only able to predict up to 41 weeks.
 
 #+BEGIN_SRC 
 MSc = w_1 * M_1 + w_2 * M_2 + ...
@@ -33,12 +33,12 @@ https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1186-2
 This paper focused on liver methylomes and found aging is slowed by Prop1^{df/df} dwarfism, rapamycin treatment and calori restriction. The clock was built from [[https://github.com/zwdzwd/InfiniumArrayAnnotation/blob/master/epigenetic_clocks/Wang148_mm10_intercept_5.827926399.bed][148 CpGs]] using 107 liver methylomes of mice from 0.2 to 26.0 months old. 28 additional mice from conditions are also analyzed. Data were obtained from [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4421981/][Reizel 2015 Genes Dev]] (mouse RRBS) and [[https://www.sciencedirect.com/science/article/pii/S1550413113002933?via%253Dihub][Ahrens 2013 Cell Metabolism]] (human).
 
 *** Meer 2018 Elife (Vadim Gladyshev lab)
-https://www.ncbi.nlm.nih.gov/pubmed/30427307
+https://elifesciences.org/articles/40675
 
-The clock was built from [[https://github.com/zwdzwd/InfiniumArrayAnnotation/blob/master/epigenetic_clocks/Meer435_mm10_intercept_234.64.bed][435 CpGs]] built.
+The clock was built from [[https://github.com/zwdzwd/InfiniumArrayAnnotation/blob/master/epigenetic_clocks/Meer435_mm10_intercept_234.64.bed][435 CpGs]] .
 
 *** Thompson 2018 Aging (Gary Churchill, Steve Horvath and Matteo Pellegrini lab)
-https://www.ncbi.nlm.nih.gov/pubmed/30348905
+https://www.aging-us.com/full/10/2832
 
 Four clocks were built. Two used *193,651* CpGs and two conservative clocks (including an [[https://github.com/zwdzwd/InfiniumArrayAnnotation/blob/master/epigenetic_clocks/Thompson582ElasticNet_mm10_intercept_30.3172.bed][582 CpG]] elastic net model and a [[https://github.com/zwdzwd/InfiniumArrayAnnotation/blob/master/epigenetic_clocks/Thompson273ElasticNetConserved_mm10_intercept_13.6378.bed][273 CpG]] conserved model) used *952* CpGs using RRBS from adipose, blood, liver, and kidney, muscle, and lung tissue samples.
    
