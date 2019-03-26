@@ -35,7 +35,7 @@ This paper focused on liver methylomes and found aging is slowed by Prop1^{df/df
 *** Meer 2018 Elife (Vadim Gladyshev lab)
 https://www.ncbi.nlm.nih.gov/pubmed/30427307
 
-The clock was built from *435* CpGs built.
+The clock was built from [[https://github.com/zwdzwd/InfiniumArrayAnnotation/blob/master/epigenetic_clocks/Meer435_mm10_intercept_234.64.bed][435 CpGs]] built.
 
 *** Thompson 2018 Aging (Gary Churchill, Steve Horvath and Matteo Pellegrini lab)
 https://www.ncbi.nlm.nih.gov/pubmed/30348905
